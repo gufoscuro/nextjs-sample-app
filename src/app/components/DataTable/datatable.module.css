@@ -1,0 +1,52 @@
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dataTable .thead {
+    padding: 0.7rem 1rem;
+    font-size: 0.75rem;
+    color: var(--secondary-text);
+    text-align: left;
+    cursor: default;
+}
+.dataTable .thead:first-child {
+    padding-left: 3rem;
+}
+.dataTable .thead:last-child {
+    padding-right: 3rem;
+}
+.dataTable .tCell {
+    padding: 1.25rem 0 1.25rem 1rem;
+    box-shadow: 0px -1px 0px 0px #E9EAF0 inset;
+}
+.dataTable td.tCell:first-child,
+.dataTable td:first-child .tCell {
+    padding-left: 3rem;
+}
+.dataTable td.tCell:last-child,
+.dataTable td:last-child .tCell {
+    padding-right: 3rem;
+}
+.dataTable tr:hover .tCell {
+    background-color: #F9F9F7;
+}
+.dataTable .link {
+    display: block;
+}
+
+.dataTable .tCell.center,
+.dataTable .thead.center {
+    text-align: center;
+}
+.dataTable .tCell.right,
+.dataTable .thead.right {
+    text-align: right;
+}
+
+.dataTable .sortingImage {
+    margin-left: 0.5rem;
+}
+.dataTable .link {
+    display: block;
+}

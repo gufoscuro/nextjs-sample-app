@@ -1,0 +1,11 @@
+.navlink {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0;
+    line-height: 1.5rem;
+    border-radius: var(--border-radius);
+}
+.navlink:hover,
+.navlink.active {
+    background-color: var(--main-nav-link-bg);
+}

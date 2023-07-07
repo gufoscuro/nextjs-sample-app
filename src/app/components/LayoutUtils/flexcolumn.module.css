@@ -1,0 +1,12 @@
+.column {
+    flex: 0 0 auto;
+}
+.column.grow {
+    flex-grow: 1;
+}
+.column.shrink {
+    flex-shrink: 1;
+}
+.column.scrollable {
+    overflow-y: auto;
+}

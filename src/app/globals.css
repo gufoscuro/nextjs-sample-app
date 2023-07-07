@@ -1,0 +1,58 @@
+:root {
+  --primary-bg: #ffffff;
+  --main-nav-bg: #FAFAFC;
+  --main-nav-link-bg: #EFE9FE;
+  --panels-bg: #F5F6FA;
+
+  --primary-text: #262A3E;
+  --secondary-text: #6A6F85;
+
+  --main-nav-width: 240px;
+  --border-radius: 8px;
+  --border-radius-big: 12px;
+}
+
+html,
+body {
+  color: var(--primary-text);
+  background-color: var(--primary-bg);
+  line-height: 1.5rem;
+}
+
+body.noscroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.MainWrapper {
+  display: flex;
+  height: 100%;
+}
+.MainContent {
+  flex-grow: 1;
+}
+.MainContent.scrollable {
+  overflow-y: auto;
+}
+.PageContent {
+  padding: 1.5rem 3rem;
+}
+
+.text-secondary {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.color-secondary {
+  color: var(--secondary-text);
+}

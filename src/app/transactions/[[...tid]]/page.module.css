@@ -1,0 +1,7 @@
+.singleTransactionPanel {
+    background-color: var(--panels-bg);
+    min-width: 23rem;
+}
+.singleTransactionPanel section {
+    height: 100%
+}

@@ -1,0 +1,12 @@
+.flexLayout {
+    display: flex;
+}
+.flexLayout.fullHeight {
+    height: 100%;
+}
+.flexLayout.centerItems {
+    align-items: center;
+}
+.flexLayout.justifyCenter {
+    justify-content: center;
+}

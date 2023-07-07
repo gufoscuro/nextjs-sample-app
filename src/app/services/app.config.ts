@@ -1,0 +1,1 @@
+export const API_BASE_URL = 'http://private-5d708-interviewfront.apiary-mock.com'

@@ -1,0 +1,14 @@
+.container {
+    width: 56rem;
+}
+.image {
+    padding: 6.25rem;
+}
+.details {
+    padding-right: 4rem;
+}
+.details h2 {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
